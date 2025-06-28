@@ -3,3 +3,5 @@ __pycache__/
 .env
 .vscode/
 .idea/
+echo .env >> .gitignore
+git rm --cached .env 2>$null
